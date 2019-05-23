@@ -6,3 +6,6 @@ on nats server run:
 
 on client run:
 - cd client && go run main.go -to ws://ws.domain.tld:8888/mq?token=test -nats-user test -nats-pass test # user and pass from nats.server config (can be not set)
+
+
+works behind nginx via ssl+vhost (wss)
