@@ -1,4 +1,4 @@
-# golang nats.io websocket to tcp 
+# golang nats.io websocket
 
 on nats server run:
 - start gnatsd server then
