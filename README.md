@@ -1,5 +1,8 @@
 # golang nats.io websocket
 
+transports full nats protocol
+
+
 on nats server run:
 - start gnatsd server then
 - cd ws-to-tcp && go run main.go -token test -bind :8888
