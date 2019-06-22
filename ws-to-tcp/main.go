@@ -44,6 +44,7 @@ func main() {
 		ncon, err := net.Dial("tcp", *flagBackend)
 		if err != nil {
 			log.Printf("%v", err)
+			conn.Close()
 			return
 		}
 		doneCh := make(chan bool)
